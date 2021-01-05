@@ -7,19 +7,19 @@ pipeline {
 		    bat 'dotnet restore'
 	    }
 	  }       
-	  stage ('Clean') {
+	  stage ('Clean project') {
 	    steps {
 		    echo 'Cleaning the output of the previous build....'
 		    bat 'dotnet clean'
 	    }
 	  }	  	  	   
-	  stage ('Build') {
+	  stage ('Build project') {
 	    steps {
 		    echo 'Building the project....'
 		    bat 'dotnet build --configuration Release'
 	    }
 	  }
-	  stage ('Test') {
+	  stage ('Test project') {
 	    steps {
 		    echo 'Testing the project....'
 		    bat 'dotnet test'
@@ -31,7 +31,7 @@ pipeline {
 		    bat 'dotnet publish -f netcoreapp3.1 -c Release --self-contained false'
 	    }
 	  }	  
-	  stage ('Run') {
+	  stage ('Run application') {
 	    steps {
 		    echo 'Running the project....'
 		    bat 'dotnet run -p ./Dental/Dental.csproj &'
