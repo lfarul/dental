@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30804.86
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Dental", "Dental\Dental.csproj", "{F199FE23-07E1-473F-81C7-6403D51C8D1F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XUnitTestProject", "XUnitTestProject\XUnitTestProject.csproj", "{430B6635-37E8-42C7-931B-FE482A182729}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F199FE23-07E1-473F-81C7-6403D51C8D1F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F199FE23-07E1-473F-81C7-6403D51C8D1F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F199FE23-07E1-473F-81C7-6403D51C8D1F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F199FE23-07E1-473F-81C7-6403D51C8D1F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{430B6635-37E8-42C7-931B-FE482A182729}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{430B6635-37E8-42C7-931B-FE482A182729}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{430B6635-37E8-42C7-931B-FE482A182729}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{430B6635-37E8-42C7-931B-FE482A182729}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8D1EA9B5-5C7B-490B-806A-4C8F74357481}
+	EndGlobalSection
+EndGlobal
