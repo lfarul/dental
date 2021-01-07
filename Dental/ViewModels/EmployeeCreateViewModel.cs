@@ -27,5 +27,7 @@ namespace Dental.ViewModels
 
         [Required(ErrorMessage = "Please provide description")]
         public string Description { get; set; }
+
+        public string Phone { get; set; }
     }
 }

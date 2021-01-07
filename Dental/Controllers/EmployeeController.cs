@@ -66,7 +66,8 @@ namespace Dental.Controllers
                 Specialty = employee.Specialty,
                 Email = employee.Email,
                 Description = employee.Description,
-                ExistingPhotoPath = employee.PhotoPath
+                ExistingPhotoPath = employee.PhotoPath,
+                Phone = employee.Phone
             };
             return View(employeeEditViewModel);
         }
@@ -83,6 +84,7 @@ namespace Dental.Controllers
                 employee.Specialty = model.Specialty;
                 employee.Email = model.Email;
                 employee.Description = model.Description;
+                employee.Phone = model.Phone;
 
 
                 if (model.Photo != null)
@@ -139,7 +141,8 @@ namespace Dental.Controllers
                     Specialty = model.Specialty,
                     Email = model.Email,
                     Description = model.Description,
-                    PhotoPath = uniqueFileName
+                    PhotoPath = uniqueFileName,
+                    Phone = model.Phone
                 };
 
                 _employeeRepository.Add(newEmployee);

@@ -24,6 +24,7 @@ namespace Dental.Models
 
         [Display(Name = "Photo")]
         public string PhotoPath { get; set; }
+        public string Phone { get; set; }
 
         // navigation properties - lekarz może mieć kilka wizyt
         public ICollection<Appointment> Appointments { get; set; }
