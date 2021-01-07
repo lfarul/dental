@@ -23,6 +23,5 @@ namespace Dental.Models
         public int EmployeeID { get; set; }
         public Employee Employee { get; set; }
         public string EmployeeEmail { get; set; }
-
     }
 }
